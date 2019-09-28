@@ -2,7 +2,7 @@
 Project for playing With Cosmo database with Entity Framework Core
 
 > Azure Cosmos DB is Microsoft's globally distributed, multi-model database service. With a click of a button, Cosmos DB enables you to elastically and independently scale throughput and storage across any number of Azure regions worldwide. You can elastically scale throughput and storage, and take advantage of fast, single-digit-millisecond data access using your favorite API including SQL, MongoDB, Cassandra, Tables, or Gremlin. Cosmos DB provides comprehensive service level agreements (SLAs) for throughput, latency, availability, and consistency guarantees, something no other database service offers.
-[- Microosfot Introduction to Cosmo DB](https://docs.microsoft.com/en-us/azure/cosmos-db/introduction)
+[- Microsoft Introduction to Cosmo DB](https://docs.microsoft.com/en-us/azure/cosmos-db/introduction)
 
 #### References
 
