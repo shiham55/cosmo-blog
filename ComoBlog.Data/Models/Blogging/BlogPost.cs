@@ -21,6 +21,6 @@ namespace ComoBlog.Data.Models.Blogging
         public bool IsPublished { get; set; }
 
         [JsonProperty(PropertyName = "tags")]
-        public List<Tag> Tags { get; set; }
+        public IEnumerable<Tag> Tags { get; set; }
     }
 }

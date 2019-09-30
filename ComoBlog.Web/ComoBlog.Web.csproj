@@ -5,4 +5,8 @@
     <AspNetCoreHostingModel>InProcess</AspNetCoreHostingModel>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\ComoBlog.Data\ComoBlog.Data.csproj" />
+  </ItemGroup>
+
 </Project>
