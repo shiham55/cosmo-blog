@@ -1,17 +1,18 @@
-﻿using Newtonsoft.Json;
+﻿using ComoBlog.Data.Base;
+using Newtonsoft.Json;
 using System;
 using System.Collections.Generic;
 using System.Text;
 
 namespace ComoBlog.Data.Models.Blogging
 {
-    public class Tag
+    public class Tag : BaseEntity
     {
-        [JsonProperty(PropertyName = "id")]
-        public string Id { get; set; }
-
         [JsonProperty(PropertyName = "name")]
         public string Name { get; set; }
+
+        [JsonProperty(PropertyName = "description")]
+        public string Description { get; set; }
 
         [JsonProperty(PropertyName = "isActive")]
         public bool IsActive { get; set; }

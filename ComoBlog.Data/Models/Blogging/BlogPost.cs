@@ -1,15 +1,13 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
+using ComoBlog.Data.Base;
 using Newtonsoft.Json;
 
 namespace ComoBlog.Data.Models.Blogging
 {
-    public class BlogPost
+    public class BlogPost : BaseEntity
     {
-        [JsonProperty(PropertyName = "id")]
-        public string Id { get; set; }
-
         [JsonProperty(PropertyName = "content")]
         public string Content { get; set; }
 
